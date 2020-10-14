@@ -16,6 +16,12 @@
     font-weight: 400;
     src: url("Oswald-Medium.ttf");
    }
+    @font-face {
+    font-family: "Oswald-Bold";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Oswald-Bold.ttf");
+   }
    @font-face {
     font-family: "Oswald-Regular";
     font-style: normal;
@@ -33,6 +39,24 @@
     font-style: normal;
     font-weight: 400;
     src: url("Montserrat-Medium.otf");
+   }
+   @font-face {
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Montserrat-Bold.otf");
+   }
+   @font-face {
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Montserrat-Regular.otf");
+   }
+   @font-face {
+    font-family: "MyriadPro-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("MyriadPro-Regular.otf");
    }
 
 
@@ -54,7 +78,8 @@
 .search-header input[type=text] {
   padding: 4px 4px 4px 15px;
   width: 85%;
-  font-size: 17px;
+  font-size: 14px;
+     font-family: Montserrat-Light!important;
   border: 1px solid transparent;
     border-radius: 20px;
 }
@@ -110,6 +135,7 @@
 .name-title{
     color: #c5c5c5;
     padding-right: 5px;
+    font-family: Oswald-Bold!important;
 }
 .name-title .fa-chevron-down{
     font-size: 10px;
@@ -118,6 +144,7 @@
 .time-header{
     color: #7e7e7e;
     font-weight: 600!important;
+     font-family: Oswald-Bold!important;
 }
 .img-right-logo{
     padding-left: 10px;
@@ -200,9 +227,9 @@
     width: 100%
 }
 .emoji-txt{
-    font-size: 30px;
+    font-size: 34px;
     color: #7e7f81;
-    font-family: Oswald-Regular!important;
+    font-family: Montserrat-Regular!important;
 
 }
 .emoji-col{
@@ -229,9 +256,9 @@
     height: 36px;
     color: #b6b7ba;
     cursor: pointer;
-        font-size: 14px;
+        font-size: 12px;
     transition: 0.5s;
-    font-family: Oswald-Medium!important;
+    font-family: MyriadPro-Regular!important;
 }
 .graph-right-btn:hover{
     background-color: #529bd4;
@@ -247,7 +274,8 @@
     color: #5b5c5e;
         font-weight: 700;
         padding-left: 10px;
-        font-family: Oswald-Medium!important;
+        font-size: 14px;
+        font-family: Montserrat-Bold!important;
 }
 .dot-4 {
   height: 30px;
@@ -256,9 +284,12 @@
   border-radius: 50%;
   text-align: center;
   color: #ebebeb;
-      line-height: 26px;
+    
     margin-left: 20px;
   margin-right: 5px;
+   font-family: Montserrat-Bold!important;
+  font-size: 11px!important;
+    line-height: 30px;
 }
 
 .analysis-row{
@@ -278,7 +309,7 @@
   font-size:12px!important;
   color:rgba(90, 93, 102, 0.702)!important;
   width:125px;
-  font-family: Oswald-Medium!important;
+  font-family: MyriadPro-Regular!important;
 }
 .btn2:hover{
   background-color:#4D92C8!important;
@@ -316,18 +347,23 @@
 .mwfont {
     font-family: mwfont;
     color: #606163;
-    font-size: 40px;
-    font-family: Oswald-Regular!important;
+    font-size: 34px;
+    font-family: Montserrat-Regular!important;
 }
 .mwfont1 {
     font-family: mwfont;
     color: #606163;
-    font-size: 40px;
-    font-family: Oswald-Medium!important;
+    font-size: 34px;
+    font-family: Montserrat-Regular!important;
 }
-th,td{
-font-family: Oswald-Regular!important;
+th{
+ font-family: Montserrat-Bold!important;
+ font-size: 14px!important;
 
+}
+td{
+  font-family: Montserrat-Regular!important;
+ font-size: 12px!important;
 }
 .fonttable {
     font-family: montbold!important;
@@ -392,8 +428,11 @@ font-family: Oswald-Regular!important;
     border-radius: 50%;
     text-align: center;
     color: #ebebeb;
-    line-height: 30px;
+    
     margin-right: 10px;
+     font-family: Montserrat-Bold!important;
+  font-size: 11px!important;
+    line-height: 30px;
     }
 
  .btn3{
@@ -402,7 +441,8 @@ font-family: Oswald-Regular!important;
     border-radius: 20px!important;
         padding: 0px 20px 0px 0px!important;
         color: #ff00b7!important;
-        font-family: Oswald-Medium!important;
+       font-family: MyriadPro-Regular!important;
+       font-size: 12px!important;
 
     }
 .dropdown-toggle::after{
@@ -452,15 +492,15 @@ font-family: Oswald-Regular!important;
     border:3px solid #232529;
 }
 .profile-title{
-  font-size: 18px;
+  font-size: 16px;
   color: #464646;
   font-family: Oswald-Medium!important;
   font-weight: 700;
 }
 .profile-designation{
-  font-size: 12px;
+  font-size: 10px;
   color: #909090;
-  font-family: Oswald-Medium!important;
+  font-family: Oswald-Light!important;
 }
 .profile-name{
   margin-top: 40px;
@@ -489,13 +529,13 @@ font-family: Oswald-Regular!important;
   width: 38%;
 }
 .dash-text{
-  font-size: 16px;
+  font-size: 14px;
   color: #b2b2b2;
   line-height: 25px;
   padding-left: 10px;
  transition: 0.7s;
  font-weight: 500;
- font-family: Oswald-Medium!important;
+ font-family: Oswald-Light!important;
 }
 .dashboard-menu-col{
 padding:10px 0px;
@@ -607,11 +647,13 @@ transition-timing-function: ease-in-out;
 }
 .btn-hide{
       text-align: left;
-    border: 1px solid #b8b9bc!important;
+    border: 1px solid #5a5d66!important;
     border-radius: 21px!important;
     padding: 3px 9px!important;
     font-size: 10px!important;
-    color: #b8b9bc!important;
+    color: #5a5d66!important;
+     font-family: MyriadPro-Regular!important;
+     line-height: 10px!important;
 }
 .btn-hide i{
 padding-right: 5px;
@@ -620,4 +662,228 @@ padding-right: 5px;
 .dot-1:hover, .dot-2:hover{
   text-decoration: none;
   color: #fff;
+}
+
+.chart12{
+  padding-top: 10px;
+}
+
+.col-lg-12.main-content-col{
+  padding-left: 50px!important;
+}
+.table-last{
+  padding-top: 25px;
+}
+
+.header-name{
+  text-align: right;
+}
+@media (min-width: 1200px) and (max-width: 1380px) {
+
+.graph-right-btn{
+  width: 110px;
+}
+.emoji-txt{
+  font-size: 28px;
+}
+.box-heading {
+    font-size: 35px;
+  }
+  .profile-img {
+    height: 80px;
+    width: 80px;
+  }
+  .profile-mini{
+    top: 60px;
+    left: 60px;
+  }
+  .dashboard-menu {
+    width: 240px;
+  }
+  .cal2{
+    font-size: 24px;
+  }
+  .albert{
+    font-size: 15px;
+  }
+  .name-title,.time-header{
+    font-size: 12px;
+  }
+}
+
+/*For IPAD*/
+@media (min-width: 768px) and (max-width: 1024px) {
+.col-top{
+  padding-top: 15px;
+}
+.box-heading{
+  font-size: 35px;
+}
+.border-col,.col-hide,.line2,.line3{
+  display: none;
+}
+.col-lg-12.main-content-col {
+    padding-left: 30px!important;
+}
+.emoji-row{
+  padding-top: 10px;
+}
+.emoji-row{
+  justify-content: center;
+}
+.graph-right-btn-col{
+  padding-left: 0px!important;
+}
+.graph-right-btn{
+  width: 115px;
+}
+.btn-right{
+  float: right;
+}
+.line1{
+  height: 15px;
+  margin-top: 0px;
+  background-color: transparent;
+}
+.wo{
+  padding: 40px 40px;
+}
+.man{
+  padding: 40px 45px;
+}
+.stoper-row .img-stoper{
+  padding-top: 15px!important;
+  padding-bottom: 25px;
+}
+.dashboard-menu{
+  width: 198px;
+}
+.profile-img{
+  width: 70px;
+  height: 70px;
+}
+.profile-mini{
+  top: 45px;
+    left: 57px;
+}
+.profile-title {
+    font-size: 12px;
+  }
+    .dash-text,.cal,.name-title,.time-header {
+    font-size: 11px;
+  }
+  .albert {
+    font-size: 10px;
+  }
+  .cal-col{
+    padding-left: 4px!important;
+    padding-right: 2px!important;
+  }
+  .cal2 {
+    padding: 8px 0px;
+    font-size: 12px;
+  }
+  .main-content-col {
+    padding-right: 30px!important;
+}
+.header-name{
+  text-align: right;
+}
+.search-header input[type=text]{
+  width: 70%;
+}
+.logo-main {
+    width: 150%;
+    height: 30px;
+}
+}
+/*For Mobile*/
+@media (min-width: 320px) and (max-width: 767px) {
+.boxes-col{
+  padding: 15px 15px 0px 15px!important;
+}
+.main-content-col{
+  padding-right: 15px!important;
+}
+.box-heading{
+  font-size: 30px;
+}
+.boxes-img {
+    width: 50%;
+}
+.boxes-img-col{
+  justify-content: center;
+}
+.dot-4{
+      height: 25px;
+    width: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+}
+.emoi-img{
+  width: 40%;
+  margin-bottom: 0px;
+}
+.emoji-txt{
+  display: block;
+  font-size: 30px;
+}
+.emoji-row{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.emo-2{
+  margin-bottom: 10px;
+}
+.emoji-col{
+  padding-bottom: 15px;
+}
+.border-col{
+  height: 10px;
+  border-color: transparent;
+}
+.graph-right-btn-col{
+  text-align: center;
+}
+.btn-right{
+  float: right;
+}
+.emoji-sec,.block2, .block3{
+  margin-left: 8px!important;
+  margin-right: 8px!important;
+}
+.sm .wo-col{
+  padding-left: 15px!important;
+
+}
+.wo{
+  padding:30px 35px;
+}
+.man{
+  padding:30px 40px;
+}
+.mwfont,.mwfont1{
+  font-size: 30px;
+}
+.line1{
+  height: 0px;
+    margin-top: 10px;
+}
+.analysis-title{
+  padding-left: 3px;
+  font-size: 11px;
+}
+/*.hello-div{
+  display: none;
+}*/
+.line2,.line3{
+  display: none;
+}
+.stoper-row .img-stoper{
+  padding-top: 0px!important;
+  padding-bottom: 10px;
+}
+.logo-col-footer{
+  text-align: center;
+}
 }

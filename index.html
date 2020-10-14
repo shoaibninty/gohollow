@@ -23,13 +23,13 @@
       <!-- HEADER SECTION START -->
           <div class="row header-row">
 
-            <div class="col-md-1">
+            <div class="col-md-1 col-lg-1">
               <img class="logo-main" src="img/Logo.png">
             </div>
-            <div class="col-md-1 left-logo-col">
+            <div class="col-md-1 col-lg-1 left-logo-col">
               <img class="menu-icon" src="img/Left - Menu.png">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-lg-3">
               <div class="search-container">
                  <form action="/action_page.php" class="search-header">
                       <input type="text" placeholder="Search.." name="search">
@@ -37,10 +37,10 @@
                  </form>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2 col-lg-4">
               
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 col-lg-1">
               <div class="header-dots">
                 <span class="dot dot-1" href="#" data-toggle="tooltip" title="Setting"><i class="fa fa-cog"></i></span>
                 
@@ -48,7 +48,7 @@
                 <span class="dot dot-3"></span>
               </div>
             </div>
-            <div class="col-md-2 header-name">
+            <div class="col-md-4 col-lg-2 header-name">
               <span class="name-title">T. JOBLONSKI<i class="fa fa-chevron-down"></i></span>
               <span class="time-header">
                 <script>
@@ -82,15 +82,15 @@
 
        <div class="row content-row row-eq-height">
         <!--CALENDAR COL START-->
-          <div class="col-md-3">
+          <div class="col-md-3 col-lg-3">
             <div class="row left-content-row">
                 <!-- MENU BAR  START -->
-              <div class="col-md-4 menu-bg">
+              <div class="col-md-6 col-lg-4 menu-bg">
                 <div class="profile-img">
                   <div class="profile-mini"> </div>
                 </div>
                 <div class="profile-name">
-                  <h3 class="profile-title">T.JOBLONSKI</h3>
+                  <h3 class="profile-title">T. JOBLONSKI</h3>
                   <h3 class="profile-designation">ADMINISTRATOR</h3>
                 </div>
                 <div class="row dashboard-menu">
@@ -137,10 +137,10 @@
                 </div>
               </div>
               <!-- MENU BAR  END -->
-              <div class="col-md-8">
+              <div class="col-md-6 col-lg-8">
                 <div class="row">
                   
-                  <div class="col-md-9 text-center mt-18 cal-col">
+                  <div class="col-md-7 col-lg-9 text-center mt-18 cal-col">
                   <div class="cal" id="demo">
                        <script>
                          var d = new Date();
@@ -156,7 +156,7 @@
                   </div>
                   <h3 class="albert">ALBERTA, CA</h3>
                 </div>
-                <div class="col-md-3 btn-hide-col mt-18">
+                <div class="col-md-5 col-lg-3 btn-hide-col mt-18">
                    <button type="button" class="btn btn-hide"><i class="fa fa-caret-left"></i>HIDE</button>
                 </div>
 
@@ -172,66 +172,84 @@
 $(document).ready(function(){
   $(".btn-hide").click(function(){
     $(".left-content-row").hide();
-
-
   });
 
 $(".menu-icon").click(function(){
-    $(".left-content-row").show();
-  
+    $(".left-content-row").show(); 
   });
 
 $(document).ready(function(){
-                   $('[data-toggle="tooltip"]').tooltip();   
-                  });
+   $('[data-toggle="tooltip"]').tooltip();   
+ });
+
+
+$('.btn-hide').on('click', function(){
+    $('.main-content-col').removeClass('col-lg-9');
+    $('.main-content-col').addClass('col-lg-12');
+});
+
+$('.menu-icon').on('click', function(){
+    $('.main-content-col').removeClass('col-lg-12');
+    $('.main-content-col').addClass('col-lg-9');
+});
+
+$('.btn-hide').on('click', function(){
+    $('.main-content-col').removeClass('col-md-9');
+    $('.main-content-col').addClass('col-md-12');
+});
+
+$('.menu-icon').on('click', function(){
+    $('.main-content-col').removeClass('col-md-12');
+    $('.main-content-col').addClass('col-md-9');
+});
 
 });
 </script>
 
 
           <!--BOX SEC START-->
-          <div class="col-md-9 main-content-col">
+          <div class="col-12 col-md-9 col-lg-9 main-content-col">
             <!--four BOX SEC START-->
             <div class="row boxes-row">
-              <div class="col-md-3 boxes-col">
+              <div class="col-12 col-md-6 col-lg-3 boxes-col">
                 <div class="row boxes">
-                  <div class="col-md-3 boxes-img-col">
+                  <div class="col-4 col-md-3 boxes-img-col">
                     <img class="boxes-img" src="img/Layer 1351.png">
                   </div>
-                  <div class="col-md-9 boxes-content-col">
+                  <div class="col-8 col-md-9 boxes-content-col">
                     <span class="box-heading">38</span>
                     <span class="box-heading2">TOTAL VISITORS</span>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 boxes-col">
+              <div class="col-12 col-md-6 col-lg-3 boxes-col">
                  <div class="row boxes">
-                  <div class="col-md-3 boxes-img-col">
+                  <div class="col-4 col-md-3 boxes-img-col">
                     <img class="boxes-img" src="img/men-and-women.png">
                   </div>
-                  <div class="col-md-9 boxes-content-col">
+                  <div class="col-8 col-md-9 boxes-content-col">
                     <span class="box-heading">59/125</span>
                     <span class="box-heading2">M VS F</span>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 boxes-col">
+              <div class="col-12 col-md-6 col-lg-3 boxes-col col-top">
                  <div class="row boxes">
-                  <div class="col-md-3 boxes-img-col">
+                  <div class="col-4 col-md-3 boxes-img-col">
                     <img class="boxes-img" src="img/avg-age.png">
                   </div>
-                  <div class="col-md-9 boxes-content-col">
+                  <div class="col-8 col-md-9 boxes-content-col">
                     <span class="box-heading">87</span>
                     <span class="box-heading2">AVG AGE</span>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 boxes-col">
+              <div class="col-12 col-md-6 col-lg-3 boxes-col col-top">
                  <div class="row boxes">
-                  <div class="col-md-3 boxes-img-col">
+                  <div class="col-4 col-md-3 boxes-img-col">
                     <img class="boxes-img" src="img/avg-time.png">
                   </div>
-                  <div class="col-md-9 boxes-content-col">
+                  <div class="col-8 col-md-9 boxes-content-col">
                     <span class="box-heading">43</span>
                     <span class="box-heading2">AVG TIME</span>
                   </div>
@@ -241,14 +259,14 @@ $(document).ready(function(){
             <!--four BOX SEC END-->
              <!--EMOJI SEC START-->
           <div class="row emoji-sec">
-            <div class="col-md-5">
+            <div class="col-12 col-md-12 col-lg-5">
               <div class="row analysis-row">
-                <div class="col-md-8">
+                <div class="col-6 col-md-8">
                   <span class="analysis-title">ANALYSIS</span>
                   <span class="dot dot-4">3</span>
                 </div>
-                <div class="col-md-4">
-                 <div class="dropdown btn1">
+                <div class="col-6 col-md-4">
+                 <div class="dropdown btn1 btn-right">
                                  <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
                                  Last Week
                                  <i class="fa fa-ellipsis-v smallicon"></i>
@@ -264,17 +282,17 @@ $(document).ready(function(){
                 </div>
               </div>
               <div class="row emoji-row">
-                <div class="col-md-1">
+                <div class="col-md-1 col-hide">
                 </div>
-                <div class="col-md-3 emoji-col">
-                  <img class="emoi-img" src="img/Ellipse 1083 copie 2.png">
+                <div class="col-12 col-md-3 emoji-col">
+                  <img class="emoi-img emo-2" src="img/Ellipse 1083 copie 2.png">
                   <span class="emoji-txt">45 %</span>
                 </div>
-                <div class="col-md-3 emoji-col">
+                <div class="col-12 col-md-3 emoji-col">
                   <img class="emoi-img" src="img/Ellipse 1083 copie.png">
                   <span class="emoji-txt">35 %</span>
                 </div>
-                <div class="col-md-3 emoji-col">
+                <div class="col-12 col-md-3 emoji-col">
                   <img class="emoi-img" src="img/Ellipse 1083.png">
                   <span class="emoji-txt">20 %</span>
                 </div>
@@ -283,34 +301,34 @@ $(document).ready(function(){
                 </div>
               </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-12 col-md-12 col-lg-7">
                <div class="row analysis-row">
-                <div class="col-md-6">
+                <div class="col-6 col-md-6">
                   <span class="analysis-title">STATISTICS</span>
                  
                 </div>
-                <div class="col-md-6">
+                <div class="col-6 col-md-6">
                   <div class="dropdown lyear">
                                  <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
                                  Last year
                                  <i class="fa fa-ellipsis-v smallicon"></i>
                                  </button>
                                  <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last week</a>
+                                    <a class="dropdown-item s5" id="4" href="#">Last week</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
+                                    <a class="dropdown-item s6" id="5" href="#">Last Month</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
+                                    <a class="dropdown-item s7" id="6" href="#">Last Day</a>
                                  </div>
                               </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-9">
+                <div class="col-12 col-md-9">
                  <!--  <img class="graph-img" src="img/VALUE.png"> -->
                  <canvas id="line-stacked-area" height="300px"></canvas>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-md-3 graph-right-btn-col">
                   <button class="graph-right-btn s1" id="0">amount of visitors</button>
                   <button class="graph-right-btn graph-right-btn2 s2" id="1">male vs. female</button>
                   <button class="graph-right-btn graph-right-btn2 s3" id="2">avg. age</button>
@@ -325,11 +343,11 @@ $(document).ready(function(){
                   <div class="row block2 bg-white mt-2">
                      <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                         <div class="row">
-                           <div class="col-9 col-sm-9 col-md-9 col-lg-9 pt-3 colomf">
+                           <div class="col-9 col-sm-9 col-md-9 col-lg-9 colomf">
                              <span class="analysis-title"> MALE VS FEMALE</span>
                            </div>
-                           <div class="col-3 col-sm-3 col-md-3 col-lg-3 pt-3">
-                              <div class="dropdown">
+                           <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                              <div class="dropdown btn-right">
                                  <button type="button" class="btn bg-white btn4" data-toggle="dropdown">
                                  
                                  <i class="fa fa-ellipsis-v smallicon2"></i>
@@ -345,10 +363,10 @@ $(document).ready(function(){
                            </div>
                         </div>
                         <div class="row">
-                           <div class="col-md-12" style="color:white">Hello</div>
+                           <div class="col-md-12 hello-div" style="color:white">Hello</div>
                         </div>
                         <div class="row sm">
-                           <div class="col-12 col-sm-4 col-md-6 col-lg-6 pt-4 pl-5 text-center">
+                           <div class="col-12 col-sm-4 col-md-6 col-lg-6 pt-4 pl-5 text-center wo-col">
                               <img src="img/women.png" alt="image" class="wo">
                               <h5 class="mwfont">40%</h5>
                            </div>
@@ -363,9 +381,9 @@ $(document).ready(function(){
                      </div>
                      <div class="col-md-12 col-lg-3">
                         <div class="row">
-                           <div class="col-9 col-sm-9 col-md-9 pt-3 pl-3 colomf"><span class="analysis-title">AVG DWELL TIME</span></div>
-                           <div class="col-3 col-sm-3 col-md-3 pt-3">
-                              <div class="dropdown">
+                           <div class="col-9 col-sm-9 col-md-9  pl-3 colomf"><span class="analysis-title">AVG DWELL TIME</span></div>
+                           <div class="col-3 col-sm-3 col-md-3 ">
+                              <div class="dropdown btn-right">
                                  <button type="button" class="btn bg-white btn4" data-toggle="dropdown">
                                  
                                  <i class="fa fa-ellipsis-v smallicon2"></i>
@@ -383,8 +401,10 @@ $(document).ready(function(){
                         <div class="row">
                            <div class="col-md-12" style="color:white">Hello</div>
                         </div>
-                        <div class="row">
-                           <div class="col-10 col-sm-10 col-md-10 pt-5 text-center"><img src="img/time.png" alt="image" class="nummob1"></div>
+                        <div class="row stoper-row">
+                           <div class="col-12 col-sm-10 col-md-12 col-lg-10  text-center img-stoper">
+                            <img src="img/time.png" alt="image" class="nummob1">
+                           </div>
                            <div class="col-2 col-sm-2 col-md-2">
                               <div class="line2"></div>
                            </div>
@@ -392,8 +412,8 @@ $(document).ready(function(){
                      </div>
                      <div class="col-md-12 col-lg-5">
                         <div class="row">
-                           <div class="col-7 col-sm-8 col-md-3 col-lg-4 pt-3 colomf2"><span class="analysis-title">AGE GROUPS</span></div>
-                           <div class="col-5 col-sm-4 col-md-6 col-lg-4 pt-3 colomf2">
+                           <div class="col-7 col-sm-8 col-md-4 col-lg-4  pl-3  colomf2"><span class="analysis-title">AGE GROUPS</span></div>
+                           <div class="col-5 col-sm-4 col-md-4 col-lg-4  colomf2">
                            
                            <div class="dropdown ">
                                  <button type="button" class="btn dropdown-toggle bg-white btn3" data-toggle="dropdown">
@@ -412,7 +432,7 @@ $(document).ready(function(){
                            
                            
                            </div>
-                           <div class="col-md-3 col-lg-4 pt-3">
+                           <div class="col-md-4 col-lg-4 ">
                               <div class="dropdown agedrop dc">
                                  <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
                                  Last week
@@ -439,7 +459,7 @@ $(document).ready(function(){
                                        <th>TTotal</th>
                                        <th>Total</th>
                                        <th>TTotal</th>
-                                       <th>Total</th>
+                                       <!-- <th>Total</th> -->
                                     </tr>
                                  </thead>
                                  <tbody>
@@ -450,7 +470,7 @@ $(document).ready(function(){
                                        <td>32</td>
                                        <td>33</td>
                                        <td>32</td>
-                                       <td>33</td>
+                                <!--        <td>33</td> -->
                                     </tr>
                                     <tr class="fonttable1">
                                        <td>15:00-29:59</td>
@@ -459,7 +479,7 @@ $(document).ready(function(){
                                        <td>33</td>
                                        <td>34</td>
                                        <td>33</td>
-                                       <td>34</td>
+                                       <!-- <td>34</td> -->
                                     </tr>
                                     <tr class="fonttable1">
                                        <td>30:00-44:59</td>
@@ -468,7 +488,7 @@ $(document).ready(function(){
                                        <td>30</td>
                                        <td>31</td>
                                        <td>33</td>
-                                       <td>34</td>
+                                      <!--  <td>34</td> -->
                                     </tr>
                                      <tr class="fonttable1">
                                        <td>30:00-44:59</td>
@@ -477,7 +497,7 @@ $(document).ready(function(){
                                        <td>30</td>
                                        <td>31</td>
                                        <td>33</td>
-                                       <td>34</td>
+                                   <!--     <td>34</td> -->
                                     </tr>
                                      <tr class="fonttable1">
                                        <td>30:00-44:59</td>
@@ -486,7 +506,7 @@ $(document).ready(function(){
                                        <td>30</td>
                                        <td>31</td>
                                        <td>33</td>
-                                       <td>34</td>
+                                       <!-- <td>34</td> -->
                                     </tr>
                                  </tbody>
                               </table>
@@ -498,11 +518,11 @@ $(document).ready(function(){
                   <div class="row mt-2 block3 bg-white">
                      <div class="col-sm-12 col-md-12 col-lg-7">
                         <div class="row">
-                           <div class="col-6 col-sm-6 col-md-9 col-lg-8 p-3 block31"><span class="analysis-title">NATIONALITY</span>
+                           <div class="col-6 col-sm-6 col-md-6 col-lg-8 block31"><span class="analysis-title">NATIONALITY</span>
                              <span class="dot dot-4">8</span>
                            </div>
-                           <div class="col-6 col-sm-4 col-md-3 col-lg-4 pt-3">
-                              <div class="dropdown nation">
+                           <div class="col-6 col-sm-4 col-md-6 col-lg-4">
+                              <div class="dropdown nation btn-right">
                                  <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
                                  Last year
                                  <i class="fa fa-ellipsis-v smallicon"></i>
@@ -518,7 +538,7 @@ $(document).ready(function(){
                            </div>
                         </div>
                         <div class="row">
-                           <div class="col-md-11 pt-4">
+                           <div class="col-md-11 table-last">
                               <table class="table table-hover table-responsive">
                                  <thead>
                                     <tr class="fonttable">
@@ -573,10 +593,10 @@ $(document).ready(function(){
                      </div>
                      <div class="col-12 col-md-12 col-lg-5">
                         <div class="row">
-                           <div class="col-7 col-sm-9 col-md-9 col-lg-9 pt-3 pl-3 block31"><span class="analysis-title">REPEATED VISITORS</span>
+                           <div class="col-8 col-sm-9 col-md-9 col-lg-9 pl-3 block31"><span class="analysis-title">REPEATED VISITORS</span>
                               <span class="dot dot-4">5</span>
                            </div>
-                           <div class="col-5 col-sm-3 col-md-3 col-lg-3 pt-3 pl-5">
+                           <div class="col-4 col-sm-3 col-md-3 col-lg-3 pl-5">
                              <div class="dropdown">
                                  <button type="button" class="btn bg-white btn4" data-toggle="dropdown">
                                  
@@ -594,7 +614,10 @@ $(document).ready(function(){
                         </div>
                         <div class="row">
                            <div class="col-sm-1"></div>
-                           <div class="col-12 col-sm-11 col-md-12"><img src="img/graph.png" alt="image" class="graph1"></div>
+                           <div class="col-12 col-sm-11 col-md-12">
+                           <!--  <img src="img/graph.png" alt="image" class="graph1"> -->
+                           <div id="chartContainer" class="chart12" style="height: 300px; width: 100%;"></div>
+                          </div>
                         </div>
                      </div>
                   </div>
@@ -602,7 +625,7 @@ $(document).ready(function(){
                    <!--start of aqomi-->
                   <div class="row">
                      <div class="col-2 col-sm-4 col-md-4"></div>
-                     <div class="col-10 col-sm-8 col-md-4 p-4"><img src="img/aqomi.png" alt="image" class="img-fluid"></div>
+                     <div class="col-12 col-sm-8 col-md-4 p-4 logo-col-footer"><img src="img/aqomi.png" alt="image" class="img-fluid"></div>
                      <div class="col-md-4"></div>
                   </div>
                   <!--end of aqomi-->
@@ -622,6 +645,128 @@ $(document).ready(function(){
       
       
       <footer>
+        <script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+  animationEnabled: true,
+  exportEnabled: true,
+  title:{
+    text: ""             
+  }, 
+  axisY:{
+    title: ""
+  },
+  toolTip: {
+    shared: true
+  },
+  legend:{
+    cursor:"pointer",
+    itemclick: toggleDataSeries
+  },
+  data: [
+  {        
+    type: "spline",  
+    name: "US",        
+    showInLegend: true,
+    dataPoints: [
+      // { label: "Atlanta 1996" , y: 44 },     
+      // { label:"Sydney 2000", y: 37 },     
+      // { label: "Athens 2004", y: 36 },     
+      // { label: "Beijing 2008", y: 36 },     
+      // { label: "London 2012", y: 46 },
+      // { label: "Rio 2016", y: 46 }
+    ]
+  }, 
+  // {        
+  //   type: "spline",
+  //   name: "China",        
+  //   showInLegend: true,
+  //   dataPoints: [
+  //     { label: "Atlanta 1996" , y: 16 },     
+  //     { label:"Sydney 2000", y: 28 },     
+  //     { label: "Athens 2004", y: 32 },     
+  //     { label: "Beijing 2008", y: 48 },     
+  //     { label: "London 2012", y: 38 },
+  //     { label: "Rio 2016", y: 26 }
+  //   ]
+  // },
+  // {        
+  //   type: "spline",  
+  //   name: "Britain",        
+  //   showInLegend: true,
+  //   dataPoints: [
+  //     { label: "Atlanta 1996" , y: 1 },     
+  //     { label:"Sydney 2000", y: 11 },     
+  //     { label: "Athens 2004", y: 9 },     
+  //     { label: "Beijing 2008", y: 19 },     
+  //     { label: "London 2012", y: 29 },
+  //     { label: "Rio 2016", y: 27 }
+  //   ]
+  // },
+  {   
+       
+    type: "spline",  
+    name: "Russia",        
+    showInLegend: true,
+    dataPoints: [
+      // { label: "Atlanta 1996" , y: 26 },     
+      // { label:"Sydney 2000", y: 32 },     
+      // { label: "Athens 2004", y: 28 },     
+      // { label: "Beijing 2008", y: 22 },     
+      // { label: "London 2012", y: 20 },
+      // { label: "Rio 2016", y: 19 }
+    ]
+  },
+  {  
+    markerType: "none",     
+    type: "spline",  
+    lineThickness: 2,
+    name: "Video-1",        
+    showInLegend: true,
+    lineColor: "#529bd4",
+    dataPoints: [
+      { label: "Sun" , y: 10 },     
+      { label:"Mon", y: 20 },     
+      { label: "Tue", y: 30 },     
+      { label: "Wed", y: 10 },     
+      { label: "Thu", y: 20},
+      { label: "Fri", y: 40 }
+    ]
+  },  
+  { 
+  markerType: "none",         
+    type: "spline", 
+    lineThickness: 2, 
+    name: "Video-2",        
+    showInLegend: true,
+    lineColor: "#ff00b7",
+    dataPoints: [
+      { label: "Sun" , y: 20 },     
+      { label:"Mon", y: 10 },     
+      { label: "Tue", y: 10 },     
+      { label: "Wed", y: 20 },     
+      { label: "Thu", y: 10 },
+      { label: "Fri", y: 20 },
+      { label: "Sat", y: 20 }
+    ]
+  }]
+});
+
+chart.render();
+
+function toggleDataSeries(e) {
+  if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+    e.dataSeries.visible = false;
+  }
+  else {
+    e.dataSeries.visible = true;            
+  }
+  chart.render();
+}
+
+}
+</script>
       <script src="app-assets/vendors/js/charts/chart.min.js"></script>
     <script src="app-assets/vendors/js/charts/echarts/echarts.js"></script>
     <script src="app-assets/js/scripts/charts/chartjs/line/line.min.js"></script>
