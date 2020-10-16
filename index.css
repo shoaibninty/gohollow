@@ -678,6 +678,256 @@ padding-right: 5px;
 .header-name{
   text-align: right;
 }
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+
+.img-stoper{
+  padding-top: 50px;
+}
+
+}
+@media (min-width: 1025px) and (max-width: 1099px) {
+
+.btn-hide{
+   padding: 3px 2px!important;
+    font-size: 8px!important;
+    line-height: 8px!important;
+  }
+  .search-header input[type=text]{
+    width: 80%;
+  }
+   .name-title,.time-header{
+    font-size: 9px;
+  }
+  .header-dots{
+    margin-left: -50px;
+  }
+  .profile-img {
+    height: 60px;
+    width: 60px;
+  }
+  .profile-mini{
+        top: 35px;
+    left: 48px;
+  }
+  .profile-title {
+    font-size: 10px;
+  }
+  .cal-col {
+    padding-left: 20px!important;
+}
+.img-stoper{
+  margin-left: -3px;
+}
+.cal2{
+  font-size: 24px!important;
+  padding: 10px 0px!important;
+}
+.cal2{
+  font-size: 18px;
+}
+.dashboard-menu {
+    width: 200px;
+    }
+.dash-text {
+    font-size: 11px;
+  }
+.albert{
+  font-size: 16px;
+}
+
+.box-heading {
+    font-size: 22px;
+  }
+
+  .img-right-logo {
+    padding-left: 4px;
+}
+  .boxes-img {
+       width: 174%;
+   
+    margin-left: -3px;
+}
+.btn2{
+  width: 116px!important;
+}
+.stat{
+  padding-left: 40px;
+}
+.emoji-txt {
+    font-size: 19px;
+    }
+.btn-hide i {
+    padding-right: 2px;
+}
+#line-stacked-area{
+  width: 275px!important;
+  height: 275px!important;
+}
+.graph-right-btn-col{
+  margin-left: -30px;
+}
+.graph-right-btn{
+  width: 107px;
+}
+.analysis-title{
+  font-size: 10px;
+}
+.boxes{
+  height: 60px;
+}
+.wo{
+      padding: 25px 20px;
+}
+.man{
+      padding: 25px 25px;
+}
+.mwfont,.mwfont1{
+  font-size: 25px;
+}
+.block2 .wo-col{
+  padding-left: 10px!important;
+}
+.men-col{
+  margin-left: -20px;
+}
+
+.see-col{
+      margin-left: -42px;
+    margin-right: 11px;
+}
+
+.btn4{
+  margin-left: -15px;
+}
+
+
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+.btn-hide{
+    padding: 3px 1px!important;
+    font-size: 9px!important;
+    line-height: 9px!important;
+  }
+  .search-header input[type=text]{
+    width: 80%;
+  }
+   .name-title,.time-header{
+    font-size: 9px;
+  }
+  .header-dots{
+    margin-left: -50px;
+  }
+  .profile-img {
+    height: 70px;
+    width: 70px;
+  }
+  .profile-mini{
+        top: 45px;
+    left: 58px;
+  }
+  .profile-title {
+    font-size: 12px;
+  }
+  .cal-col {
+    padding-left: 20px!important;
+}
+.cal2{
+  font-size: 24px!important;
+  padding: 10px 0px!important;
+}
+.cal2{
+  font-size: 18px;
+}
+.dashboard-menu {
+    width: 228px;
+    }
+
+.box-heading {
+    font-size: 25px;
+  }
+  .boxes-img {
+    width: 115%;
+}
+.btn2{
+  width: 116px!important;
+}
+.stat{
+  padding-left: 40px;
+}
+.emoji-txt {
+    font-size: 21px;
+    }
+#line-stacked-area{
+  width: 275px!important;
+  height: 275px!important;
+}
+.graph-right-btn-col{
+  margin-left: -30px;
+}
+.graph-right-btn{
+  width: 107px;
+}
+.analysis-title{
+  font-size: 11px;
+}
+.boxes{
+  height: 60px;
+}
+.wo{
+      padding: 25px 20px;
+}
+.man{
+      padding: 25px 25px;
+}
+.mwfont,.mwfont1{
+  font-size: 25px;
+}
+.block2 .wo-col{
+  padding-left: 10px!important;
+}
+.men-col{
+  margin-left: -20px;
+}
+
+.see-col{
+  margin-left: -36px;
+  margin-right: 7px;
+}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+.btn-hide{
+    padding: 3px 2px!important;
+  }
+  .search-header input[type=text]{
+    width: 80%;
+  }
+   .name-title,.time-header{
+    font-size: 11px;
+  }
+  .header-dots{
+    margin-left: -50px;
+  }
+}
+@media (min-width: 1301px) and (max-width: 1550px) {
+.btn-hide{
+    padding: 3px 3px!important;
+  }
+  
+  
+}
+@media (min-width: 1301px) and (max-width: 1400px) {
+ .name-title,.time-header{
+    font-size: 12px;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1500px) {
+ .name-title,.time-header{
+    font-size: 14px;
+  }
+}
 @media (min-width: 1200px) and (max-width: 1380px) {
 
 .graph-right-btn{
@@ -706,9 +956,7 @@ padding-right: 5px;
   .albert{
     font-size: 15px;
   }
-  .name-title,.time-header{
-    font-size: 12px;
-  }
+ 
 }
 
 /*For IPAD*/
@@ -733,6 +981,9 @@ padding-right: 5px;
 }
 .graph-right-btn-col{
   padding-left: 0px!important;
+}
+.boxes{
+  height: 70px;
 }
 .graph-right-btn{
   width: 115px;
