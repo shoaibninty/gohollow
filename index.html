@@ -1,782 +1,1061 @@
-
-
 <!doctype html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="shortcut icon" href="img/bootstrapimage.png">
-      <title>GOHOLLOW</title>
-      <link rel="stylesheet" href="index.css">
-      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-      <!--<script src="js/graph1.js" type="text/javascript"></script>-->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <script src="index.js"></script>
-      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-     
-   </head>
-   <body class="container-fluid">
-     
-      <!-- HEADER SECTION START -->
-          <div class="row header-row">
 
-            <div class="col-md-1 col-lg-1">
-              <a href="http://goholonew.bitsclan.com/"><img class="logo-main" src="img/Logo.png"></a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/logo.png">
+  <title>eLearni</title>
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick.theme.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+</head>
+
+<body class="container-fluid">
+  <!--HEADER SECTION START-->
+  <div class="header-sec">
+    <div class="container">
+      <!--TOPBAR SECTION START-->
+      <div class="row topbar">
+        <div class="col-lg-4 col-md-5 col-4 top-social-col">
+          <div class="socail-top"> <a href=""><i class="fa fa-google" aria-hidden="true"></i></a> <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a> </div>
+        </div>
+        <div class="col-lg-4 col-md-2 col-1"> </div>
+        <div class="col-lg-4 col-md-5 col-7 text-right top-account-col"> <span class="footer-top-right"><a href=""><i class="fa fa-key"></i>Sign in</a></span> <span class="footer-top-right"><a href=""><i class="fa fa-user-plus"></i>Register</a></span> </div>
+      </div>
+      <!--TOPBAR SECTION END-->
+      <!--HEADER WRAPPER MOBILE & IPAD SECTION START-->
+      <!--/.Navbar MOBILE & IPAD START-->
+      <div class="row nav-bg header-mobile-row">
+        <div class="col-md-12 co-12 header-mobile-col">
+          <nav class="navbar">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href=""><img src="assets/img/Logo.png" alt="Header-Logo"></a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                class="fa fa-bars fa-1x"></i></span></button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+              <!-- Links -->
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Services</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Courses</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Classes</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Quiz</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Pages</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+              </ul>
+              <!-- Links -->
             </div>
-            <div class="col-md-1 col-lg-1 left-logo-col">
-              <img class="menu-icon" src="img/Left - Menu.png">
+            <!-- Collapsible content -->
+          </nav>
+        </div>
+      </div>
+      <!--/Navbar MOBILE & IPAD END-->
+      <!--HEADER WRAPPER MOBILE & IPAD SECTION END-->
+      <!--HEADER WRAPPER SECTION START-->
+      <div class="row header-row">
+        <div class="col-lg-2 logo-col">
+          <a href=""><img class="logo-header" src="assets/img/Logo.png" alt="Header-Logo"></a>
+        </div>
+        <div class="col-lg-7 text-center">
+          <ul class="main-menu">
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Classes</a></li>
+            <li><a href="">Quiz</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 search-form-col">
+          <form class="form-inline d-flex  md-form form-sm mt-0"> <i class="fa fa-search" aria-hidden="true"></i>
+            <input class="form-control form-control-sm ml-2" type="text" placeholder="Search" aria-label="Search"> </form>
+        </div>
+      </div>
+      <!--HEADER WRAPPER SECTION END-->
+    </div>
+  </div>
+  <!--HEADER SECTION END-->
+  <!--BANNER SECTION START-->
+  <div class="banner-bg">
+    <div class="container">
+      <div class="row hero-banner-row">
+        <div class="col-lg-8 col-md-7">
+          <h2 class="banner-h">Enroll Now & Learn</h2>
+          <div class="divider"></div>
+          <h3 class="banner-sub-h">Get Access for Award Winning</br>Online Courses</h3> </div>
+        <div class="col-lg-4 col-md-5">
+          <form class="banner-form" action="">
+            <div class="form-group">
+              <select class="form-control mdb-select md-form form-style">
+                <option value="" disabled selected>Keyword</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
             </div>
-            <div class="col-md-3 col-lg-3">
-              <div class="search-container">
-                 <form action="/action_page.php" class="search-header">
-                      <input type="text" placeholder="Search.." name="search">
-                      <button type="submit"><i class="fa fa-search"></i></button>
-                 </form>
-              </div>
+            <div class="form-group">
+              <input type="text" class="form-control form-style" placeholder="Categories" id="usr"> </div>
+            <div class="form-group">
+              <select class="form-control mdb-select md-form form-style">
+                <option value="" disabled selected>Instructors</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
             </div>
-            <div class="col-md-2 col-lg-4">
-              
-            </div>
-            <div class="col-md-1 col-lg-1">
-              <div class="header-dots">
-                <span class="dot dot-1" href="#" data-toggle="tooltip" title="Setting"><i class="fa fa-cog"></i></span>
-                
-                <span class="dot dot-2" href="#" data-toggle="tooltip" title="Notifications" data-placement="top">7</span>
-                <span class="dot dot-3"></span>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-2 header-name">
-              <span class="name-title">T. JOBLONSKI<i class="fa fa-chevron-down"></i></span>
-              <span class="time-header">
-                <script>
-                                 var currentTime = new Date(),
-                                        hours = currentTime.getHours(),
-                                        minutes = currentTime.getMinutes();
-                                 
-                                 if (minutes < 10) {
-                                  minutes = "0" + minutes;
-                                 }
-                                 
-                                 var suffix = "AM";
-                                 if (hours >= 12) {
-                                      suffix = "PM";
-                                      hours = hours - 12;
-                                 }
-                                 if (hours == 0) {
-                                  hours = 12;
-                                 }
-                                 
-                                 document.write(hours + ":" + minutes + " " + suffix)
-                              </script>
-              </span>
-              <img class="img-right-logo" src="img/Right - Menu.png">
+            <button type="submit" class="btn btn-primary form-btn">Search Courses</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--BANNER SECTION END-->
+  <!--LEARN EASY WAY SECTION START-->
+  <div class="easy-section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="easy-h text-center">Learn The Easy Way</h3>
+          <h4 class="easy-sub-h text-center">No hassle Just Learn Now & Become a Pro. Why the Wait?</h4> </div>
+        <div class="row mt-5 mt5-mobile">
+          <div class="col-lg-4 col-md-6">
+            <div class="row  card-row">
+              <div class="col-lg-3 col-md-3 col-3"> <img src="assets/img/icon1.png" alt="Certified-Courses"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Certified Courses</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
             </div>
           </div>
-       <!-- HEADER SECTION END-->
-       
-
-       <!-- CONTENT SECTION START -->
-
-       <div class="row content-row row-eq-height">
-        <!--CALENDAR COL START-->
-          <div class="col-md-3 col-lg-3">
-            <div class="row left-content-row">
-                <!-- MENU BAR  START -->
-              <div class="col-md-6 col-lg-4 menu-bg">
-                <div class="profile-img">
-                  <div class="profile-mini"> </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="row card-row card-right">
+              <div class="col-lg-3  col-md-3 col-3"> <img src="assets/img/icon-video.png" alt="Video-Coachings"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Video Coachings</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 ipad-hide">
+            <div class="row  card-row">
+              <div class="col-lg-3 col-md-3 col-3"> <img src="assets/img/icon-search.png" alt="Search-Course"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Search for your Course</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="row  card-row">
+              <div class="col-lg-3 col-md-3 col-3"> <img src="assets/img/icon-quiz.png" alt="Quiz-&-Tests"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Quiz & Tests</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="row card-row card-right">
+              <div class="col-lg-3 col-md-3 col-3"> <img src="assets/img/icon-cloud.png" alt="Cloud-Storage"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Cloud Storage</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="row  card-row">
+              <div class="col-lg-3 col-md-3 col-3"> <img src="assets/img/icon-learn.png" alt="Learn-Instantly"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Learn Instantly</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 desktop-mobile-hide">
+            <div class="row  card-row">
+              <div class="col-lg-3 col-md-3 col-3"> <img src="assets/img/icon-search.png" alt="Search-Course"> </div>
+              <div class="col-lg-9 col-md-9 col-9">
+                <h3 class="card-h">Search for your Course</h3>
+                <h5 class="card-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--LEARN EASY WAY SECTION END-->
+  <!--POPULAR COURSES SECTION START-->
+  <div class="course-section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="course-h text-center">Popular Courses</h3>
+          <h4 class="course-sub-h text-center">THE BEST COURSES</h4> </div>
+        <div class="row mt-5 course-row-main">
+          <div class="col-lg-4">
+            <div class="card-course">
+              <div class="img-course"></div>
+              <div class="card-course-content">
+                <h3 class="single-course-h">Kids Complementary Math</h3>
+                <div class="divider-course"></div>
+                <h4 class="single-course-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </h4>
+                <div class="row card-profile-row">
+                  <div class="col-lg-7 col-7 profile-col">
+                    <div class="round-profile"></div>
+                    <h5 class="profile-name">Penny Tiler</h5> </div>
+                  <div class="col-lg-5 col-5">
+                    <button class="profile-button">$15.00/hr</button>
+                  </div>
                 </div>
-                <div class="profile-name">
-                  <h3 class="profile-title">T. JOBLONSKI</h3>
-                  <h3 class="profile-designation">ADMINISTRATOR</h3>
-                </div>
-                <div class="row dashboard-menu">
-                  <div class="col-md-5 dashboard-menu-col">
-                    <img class="dash-img" src="img/dashborad.png">
-                  </div>
-                  <div class="col-md-7 dashboard-menu-col2">
-                    <h3 class="dash-text">DASHBOARD</h3>
-                  </div>
-                  
-                </div>
-                <div class="row dashboard-menu">
-                  <div class="col-md-5 dashboard-menu-col">
-                    <img class="dash-img2" src="img/message.png">
-                  </div>
-                  <div class="col-md-7 dashboard-menu-col2">
-                    <h3 class="dash-text">MESSAGE</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-course">
+              <div class="img-course"></div>
+              <div class="card-course-content">
+                <h3 class="single-course-h">Language Learning (15 Day) Crash Course Zen</h3>
+                <div class="divider-course"></div>
+                <h4 class="single-course-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </h4>
+                <div class="row card-profile-row">
+                  <div class="col-lg-7 col-7 profile-col">
+                    <div class="round-profile"></div>
+                    <h5 class="profile-name">James Andrew</h5> </div>
+                  <div class="col-lg-5 col-5">
+                    <button class="profile-button">$15.00/hr</button>
                   </div>
                 </div>
-                <div class="row dashboard-menu">
-                  <div class="col-md-5 dashboard-menu-col">
-                    <img class="dash-img3" src="img/Layer 1344.png">
-                  </div>
-                  <div class="col-md-7 dashboard-menu-col2">
-                    <h3 class="dash-text">BUYER PERSONA</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-course">
+              <div class="img-course"></div>
+              <div class="card-course-content">
+                <h3 class="single-course-h">General Logical Analysis</h3>
+                <div class="divider-course"></div>
+                <h4 class="single-course-sub-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </h4>
+                <div class="row card-profile-row">
+                  <div class="col-lg-7 col-7 profile-col">
+                    <div class="round-profile"></div>
+                    <h5 class="profile-name">Jamie Megan</h5> </div>
+                  <div class="col-lg-5 col-5">
+                    <button class="profile-button">$15.00/hr</button>
                   </div>
                 </div>
-                <div class="row dashboard-menu">
-                  <div class="col-md-5 dashboard-menu-col">
-                    <img class="dash-img3" src="img/setting.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--POPULAR COURSES SECTION END-->
+  <!--ENROLL NOW SECTION START-->
+  <div class="enroll-section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="enroll-h text-center">Get Started Easily</h3>
+          <h4 class="enroll-sub-h text-center">EASY TO ENROLL NOW</h4> </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="card-enroll text-center">
+              <div class="card-enroll-inner"> <img src="assets/img/Icon-enroll1.png" alt="Search for Course">
+                <h3 class="enroll-single-h mt-1"><span class="count">01</span> Search for Course</h3>
+                <h5 class="enroll-single-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card-enroll text-center">
+              <div class="card-enroll-inner"> <img class="img-enroll2" src="assets/img/Icon-enroll2.png" alt="Connect with Us">
+                <h3 class="enroll-single-h mt-2"><span class="count">02</span> Connect with Us</h3>
+                <h5 class="enroll-single-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card-enroll text-center">
+              <div class="card-enroll-inner"> <img class="img-enroll3" src="assets/img/Icon-enroll3.png" alt="Learn Anything">
+                <h3 class="enroll-single-h mt-2"><span class="count">03</span> Learn Anything</h3>
+                <h5 class="enroll-single-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card-enroll text-center">
+              <div class="card-enroll-inner"> <img class="img-enroll4" src="assets/img/Icon-enroll4.png" alt="Get Certified">
+                <h3 class="enroll-single-h mt-2"><span class="count">04</span> Get Certified</h3>
+                <h5 class="enroll-single-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--ENROLL NOW  SECTION END-->
+  <!--full-width boxes  SECTION END-->
+  <div class="row boxes-fullwidth">
+    <div class="col-lg-3 col-md-6 box-1"> </div>
+    <div class="col-lg-3 col-md-6 box-2">
+      <h3 class="topic-h">Over 1300+ Topics</h3>
+      <h5 class="topic-sub-h">BEST COURSES TO LEARN</h5>
+      <ul class="topic-list">
+        <li>Nullam in nulla fermentum,</li>
+        <li>Efficitur erat vel, sodales massa.</li>
+        <li>Phasellus quis quam auctor, mollis</li>
+        <li>Mauris et lorem id justo tempus dictum.</li>
+        <li>Cras molestie tortor in augue dictum</li>
+      </ul>
+      <button class="btn-book">Know More</button>
+    </div>
+    <div class="col-lg-3 col-md-6 box-3"> </div>
+    <div class="col-lg-3 col-md-6 box-4 text-center"> <img src="assets/img/Icon-book.png" alt="Digital Learning Era">
+      <h3 class="book-h">A Digital Learning Era</h3>
+      <h5 class="book-sub-h">Learn Anywhere, Learn Anything</h5>
+      <button class="btn-book">Know More</button>
+    </div>
+  </div>
+  <!--full-width boxes  SECTION END-->
+  <!--CATEGORY SECTION START-->
+  <div class="category-section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="easy-h text-center">Choose your Category</h3>
+          <h4 class="easy-sub-h text-center">JUST PICK WHAT YOU NEED TO LEARN</h4>
+          <div class="row mt-5 category-main-row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card-category text-center">
+                <div class="img-cat"> <img src="assets/img/Icon-cat1.png" alt="QUANTUM PHYSICS"> </div>
+                <h3 class="cat-h">QUANTUM PHYSICS</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card-category text-center">
+                <div class="img-cat img-cat2"> <img src="assets/img/Icon-cat2.png" alt="APPLIED SCIENCE"> </div>
+                <h3 class="cat-h">APPLIED SCIENCE</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ipad-hide">
+              <div class="card-category text-center">
+                <div class="img-cat"> <img src="assets/img/Icon-cat3.png" alt="LAW & ORDER"> </div>
+                <h3 class="cat-h">LAW & ORDER</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 category-main-row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card-category text-center">
+                <div class="img-cat img-cat2"> <img src="assets/img/Icon-cat4.png" alt="QUANTUM PHYSICS"> </div>
+                <h3 class="cat-h">QUANTUM PHYSICS</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card-category text-center">
+                <div class="img-cat"> <img src="assets/img/Icon-cat5.png" alt="APPLIED SCIENCE"> </div>
+                <h3 class="cat-h">APPLIED SCIENCE</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-ipad">
+              <div class="card-category text-center">
+                <div class="img-cat img-cat2"> <img src="assets/img/Icon-cat6.png" alt="LAW & ORDER"> </div>
+                <h3 class="cat-h">LAW & ORDER</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 desktop-mobile-hide mt-ipad">
+              <div class="card-category text-center">
+                <div class="img-cat"> <img src="assets/img/Icon-cat3.png" alt="LAW & ORDER"> </div>
+                <h3 class="cat-h">LAW & ORDER</h3>
+                <h5 class="cat-sub-h">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</h5>
+                <button class="btn-classes">14 Classes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CATEGORY SECTION END-->
+  <!--BROWSE COURSES SECTION START-->
+  <div class="browse-section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="easy-h text-center">Browse Courses</h3>
+          <h4 class="easy-sub-h text-center">JUST PICK WHAT YOU NEED TO LEARN</h4>
+          <ul class="nav nav-tabs tab-browse">
+            <li class="active"><a data-toggle="tab" href="">All</a></li>
+            <li><a data-toggle="tab" href="">Design</a></li>
+            <li><a data-toggle="tab" href="">Development</a></li>
+            <li><a data-toggle="tab" href="">Physics</a></li>
+            <li><a data-toggle="tab" href="">Accounts</a></li>
+          </ul>
+          <div class="row mt-5">
+            <div class="col-lg-6 col-md-6">
+              <div class="row card-browse">
+                <div class="col-lg-4 col-md-12 browse-img-col"> </div>
+                <div class="col-lg-8 col-md-12 browse-content-col">
+                  <h3 class="browse-content-h">Modern Arithmetics</h3>
+                  <div class="img-round-sec"> <img src="assets/img/img-person1.png" alt="Penny Tiler">
+                    <div class="img-round-con">
+                      <h5 class="person-name">Penny Tiler</h5>
+                      <h5 class="person-date">ADDED ON 29 SEP'18</h5> </div>
                   </div>
-                  <div class="col-md-7 dashboard-menu-col2 menu-11">
-                    <h3 class="dash-text">MY PROFILE</h3>
-                    <div class="menu-hover">
-                      <div class="divider1"></div>
-                    <h3 class="dash-text">MY PANEL</h3>
-                    <div class="divider1"></div>
-                    <h3 class="dash-text">SECURITY</h3>
-                    <div class="divider1"></div>
-                    <h3 class="dash-text">LOG OUT</h3>
+                  <div class="divider-person"></div>
+                  <div class="row price-div">
+                    <div class="col-lg-6 col-md-6 col-6">
+                      <h3 class="price">$15.00/hr</h3> </div>
+                    <div class="col-lg-6 col-md-6 col-6 rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star uncheck"></span> <span class="fa fa-star uncheck"></span> <span class="rate-content">(4.5)</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="row card-browse">
+                <div class="col-lg-4 browse-img-col"> </div>
+                <div class="col-lg-8 browse-content-col">
+                  <h3 class="browse-content-h">Introduction to Chemistry</h3>
+                  <div class="img-round-sec"> <img src="assets/img/img-person2.png" alt="James Andrew">
+                    <div class="img-round-con">
+                      <h5 class="person-name">James Andrew</h5>
+                      <h5 class="person-date">ADDED ON 29 SEP'18</h5> </div>
+                  </div>
+                  <div class="divider-person"></div>
+                  <div class="row price-div">
+                    <div class="col-lg-6 col-md-6 col-6">
+                      <h3 class="price">$15.00/hr</h3> </div>
+                    <div class="col-lg-6 col-md-6 col-6 rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star uncheck"></span> <span class="fa fa-star uncheck"></span> <span class="rate-content">(4.5)</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-6 col-md-6">
+              <div class="row card-browse">
+                <div class="col-lg-4 col-md-12 browse-img-col"> </div>
+                <div class="col-lg-8 col-md-12 browse-content-col">
+                  <h3 class="browse-content-h">Guided Laser Beams</h3>
+                  <div class="img-round-sec"> <img src="assets/img/img-person3.png" alt="Jamie Megan">
+                    <div class="img-round-con">
+                      <h5 class="person-name">Jamie Megan</h5>
+                      <h5 class="person-date">ADDED ON 29 SEP'18</h5> </div>
+                  </div>
+                  <div class="divider-person"></div>
+                  <div class="row price-div">
+                    <div class="col-lg-6 col-md-6 col-6">
+                      <h3 class="price">$15.00/hr</h3> </div>
+                    <div class="col-lg-6 col-md-6 col-6 rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star uncheck"></span> <span class="fa fa-star uncheck"></span> <span class="rate-content">(4.5)</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="row card-browse">
+                <div class="col-lg-4 col-md-12 browse-img-col"> </div>
+                <div class="col-lg-8 col-md-12 browse-content-col">
+                  <h3 class="browse-content-h">Plants Biology</h3>
+                  <div class="img-round-sec"> <img src="assets/img/img-person4.png" alt="Jamie Fox">
+                    <div class="img-round-con">
+                      <h5 class="person-name">Jamie Fox</h5>
+                      <h5 class="person-date">ADDED ON 29 SEP'18</h5> </div>
+                  </div>
+                  <div class="divider-person"></div>
+                  <div class="row price-div">
+                    <div class="col-lg-6 col-md-6 col-6">
+                      <h3 class="price">$15.00/hr</h3> </div>
+                    <div class="col-lg-6 col-md-6 col-6 rating"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star uncheck"></span> <span class="fa fa-star uncheck"></span> <span class="rate-content">(4.5)</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--BROWSE COURSES SECTION END-->
+  <!--AUTHOR ELMS SECTION START-->
+  <div class="author-sec">
+    <div class="container text-center">
+      <h3 class="easy-h text-center">Author of eLMS</h3>
+      <h4 class="easy-sub-h text-center">JUST PICK WHAT YOU NEED TO LEARN</h4>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="author-div text-center">
+            <div class="author-img">view profile</div>
+            <h3 class="author-name mt-2">Lauren Ralph</h3>
+            <h4 class="author-designation">Consultant</h4>
+            <div class="author-social"> <span class="author-social-icons"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></span> <span class="author-social-icons"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> </div>
+          </div>
+        </div>
+      </div>
+      <a class="" href="">
+        <button class="join-course mt-5">View all Authors</button>
+      </a>
+    </div>
+  </div>
+  <!--AUTHOR ELMS SECTION END-->
+  <!--LATEST NEWS SECTION START-->
+  <div class="news-section-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="easy-h text-center">Latest News</h3>
+          <h4 class="easy-sub-h text-center">JUST PICK WHAT YOU NEED TO LEARN</h4>
+          <div class="your-class mt-5">
+            <!-- <div class="row123 mt-5"> -->
+            <div class="">
+              <div class="news-card">
+                <div class="img-news"></div>
+                <div class="news-content">
+                  <h5 class="news-date"><i class="fa fa-history"></i> ADDED ON 31 SEP'18</h5>
+                  <h3 class="news-title">How e-Learning wins Competition in Big World</h3> </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="news-card">
+                <div class="img-news"></div>
+                <div class="news-content">
+                  <h5 class="news-date"><i class="fa fa-history"></i> ADDED ON 31 SEP'18</h5>
+                  <h3 class="news-title">How e-Learning wins Competition in Big World</h3> </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="news-card">
+                <div class="img-news"></div>
+                <div class="news-content">
+                  <h5 class="news-date"><i class="fa fa-history"></i> ADDED ON 31 SEP'18</h5>
+                  <h3 class="news-title">How e-Learning wins Competition in Big World</h3> </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="news-card">
+                <div class="img-news"></div>
+                <div class="news-content">
+                  <h5 class="news-date"><i class="fa fa-history"></i>ADDED ON 31 SEP'18</h5>
+                  <h3 class="news-title">How e-Learning wins Competition in Big World</h3> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--/.Carousel Wrapper-->
+  <!--New App Features SECTION START-->
+  <div class="app-features-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="easy-h text-center">New App Features</h3>
+          <h4 class="easy-sub-h text-center">LEARNING VIA APP NEVER GETS EASIER</h4>
+          <div class="row mt-5 app-features-row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="row app-icon-row">
+                <div class="col-lg-4 col-12 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon1.png" alt="Bookmark Fav Courses"> </div>
+                </div>
+                <div class="col-lg-8 col-12 icon-app-content-col">
+                  <h3 class="app-icon-h">Bookmark Fav Courses</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+              </div>
+              <div class="row app-icon-row mt-4">
+                <div class="col-lg-4 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon7.png" alt="Video Demonstration"> </div>
+                </div>
+                <div class="col-lg-8 icon-app-content-col">
+                  <h3 class="app-icon-h">Video Demonstration</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+              </div>
+              <div class="row app-icon-row mt-4">
+                <div class="col-lg-4 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon3.png" alt="Live Chats"> </div>
+                </div>
+                <div class="col-lg-8 icon-app-content-col">
+                  <h3 class="app-icon-h">Live Chats</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+              </div>
+              <div class="row app-icon-row mt-4">
+                <div class="col-lg-4 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon4.png" alt="Varied Syllabus"> </div>
+                </div>
+                <div class="col-lg-8 icon-app-content-col">
+                  <h3 class="app-icon-h">Varied Syllabus</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+              </div>
+            </div>
+            <div class="col-lg-4  col-md-4 col-12"> <img class="phone-design" src="assets/img/phone-design.png" alt="Phone Design"> </div>
+            <div class="col-lg-4 col-md-4 col-12 app-icon-ipad">
+              <div class="row app-icon-row">
+                <div class="col-lg-8 col-12 icon-app-content-col text-right">
+                  <h3 class="app-icon-h">App Access</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+                <div class="col-lg-4 col-12 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon5.png" alt="App Access"> </div>
+                </div>
+              </div>
+              <div class="row app-icon-row mt-4 app-icon-ipad">
+                <div class="col-lg-8 col-12 icon-app-content-col text-right">
+                  <h3 class="app-icon-h">Permanent Assets</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+                <div class="col-lg-4 col-12 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon6.png" alt="Permanent Assets"> </div>
+                </div>
+              </div>
+              <div class="row app-icon-row mt-4 app-icon-ipad">
+                <div class="col-lg-8 col-12 icon-app-content-col text-right">
+                  <h3 class="app-icon-h">Book Quality</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+                <div class="col-lg-4 col-12 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon7.png" alt="Book Quality"> </div>
+                </div>
+              </div>
+              <div class="row app-icon-row mt-4 app-icon-ipad">
+                <div class="col-lg-8 col-12 icon-app-content-col text-right">
+                  <h3 class="app-icon-h">Courses for all Ages</h3>
+                  <h5 class="app-icon-p">Get the Clear Picture</h5> </div>
+                <div class="col-lg-4 col-12 icon-app-col">
+                  <div class="icon-app-div"> <img src="assets/img/app-icon8.png" alt="Courses for all Ages"> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--New App Features SECTION END-->
+  <!--STAT SECTION START-->
+  <div class="stat-sec">
+    <div class="container">
+      <div class="row stat-row">
+        <div class="col-lg-6 col-md-6"> <img class="vector-img" src="assets/img/vector-smart-object.png" alt="Vector object"> </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 text-center stat-topic-col"> <img class="stat-icon" src="assets/img/stat-icon1.png" alt="1600+ Topics">
+              <h3 class="stat-icon-h mt-4">1600+ Topics</h3>
+              <h5 class="stat-icon-p">LEARN ANYTHING</h5> </div>
+            <div class="col-lg-6 col-md-6 text-center stat-student-col"> <img class="stat-icon" src="assets/img/stat-icon2.png" alt="1900+ Students">
+              <h3 class="stat-icon-h mt-4">1900+ Students</h3>
+              <h5 class="stat-icon-p">FUTURE GENIUS</h5> </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 text-center stat-test-col"> <img class="stat-icon" src="assets/img/stat-icon3.png" alt="15900+ Test Takens">
+              <h3 class="stat-icon-h mt-4">15900+ Test Takens</h3>
+              <h5 class="stat-icon-p">THATS A LOT</h5> </div>
+            <div class="col-lg-6 col-md-6 text-center stat-instructor-col"> <img class="stat-icon" src="assets/img/stat-icon4.png" alt="250+ Instructors">
+              <h3 class="stat-icon-h mt-4">250+ Instructors</h3>
+              <h5 class="stat-icon-p">ALL TRAINED PROFESSIONALS</h5> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--STAT SECTION END-->
+  <!--ORANGE TAB FULL SECTION START-->
+  <div class="orange-tab-sec1 orange-tab">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 text-center tab-custom-col">
+          <ul class="nav nav-tabs tabs-marker tabs-dark" id="myTab" role="tablist">
+            <li class="nav-item"> <a class="nav-link active" id="home" data-toggle="tab" href="#home-tab2" role="tab" aria-controls="home" aria-selected="true">01 Want to Learn?<div class="marker-tab"><i class="fa fa-caret-up"></i></div></a> </li>
+            <li class="nav-item"> <a class="nav-link" id="profile" data-toggle="tab" href="#profile-tab2" role="tab" aria-controls="profile" aria-selected="false">02 Benefits of EduPlanet<div class="marker-tab"><i class="fa fa-caret-up"></i></div></a> </li>
+            <li class="nav-item"> <a class="nav-link" id="contact" data-toggle="tab" href="#contact-tab2" role="tab" aria-controls="contact" aria-selected="false">03 Create a Lesson<div class="marker-tab"><i class="fa fa-caret-up"></i></div></a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab2" role="tabpanel" aria-labelledby="home-tab">
+        <div class="orange-tabs-sec">
+          <div class="container">
+            <div class="row accordion-row">
+              <div class="col-lg-1"> </div>
+              <div class="col-lg-5 col-md-5"> <img class="card-circle" src="assets/img/cards-circle-image.png" alt="Cards with circle"> </div>
+              <div class="col-lg-5 col-md-7 accordion-col">
+                <h3 class="accordian-h">We create the best</br>environment to learn</h3>
+                <!--Accordion wrapper-->
+                <div class="accordion md-accordion mt-3" id="accordionEx" role="tablist" aria-multiselectable="true">
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne1">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                        <h5 class="mb-0">
+                           01. Great Online Instructors <i class="fa fa-plus rotate-icon"></i>
+                           </h5> </a>
                     </div>
-                    
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo2">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                        <h5 class="mb-0">
+          02. Get Learny Certified Awards <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
+                  </div>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree3">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                        <h5 class="mb-0">
+          03. Exclusive Course Materials <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
+                  </div>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingfour4">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapsefour4" aria-expanded="false" aria-controls="collapsefour4">
+                        <h5 class="mb-0">
+          04. In - depth Course Analysis <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapsefour4" class="collapse" role="tabpanel" aria-labelledby="headingfour4" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
+                  </div>
+                  <!-- Accordion card -->
                 </div>
+                <!-- Accordion wrapper -->
               </div>
-              <!-- MENU BAR  END -->
-              <div class="col-md-6 col-lg-8">
-                <div class="row">
-                  
-                  <div class="col-md-7 col-lg-9 text-center mt-18 cal-col">
-                  <div class="cal" id="demo">
-                       <script>
-                         var d = new Date();
-                         document.getElementById("demo").innerHTML = d.getFullYear();
-                       </script>
-                  </div>
-                  <div class="cal2" id="demo2">
-                    <script>
-                      var d = new Date();
-                      document.getElementById("demo2").innerHTML = d.getDate();
-                      </script> Oct
-                      
-                  </div>
-                  <h3 class="albert">ALBERTA, CA</h3>
-                </div>
-                <div class="col-md-5 col-lg-3 btn-hide-col mt-18">
-                   <button type="button" class="btn btn-hide"><i class="fa fa-caret-left"></i>HIDE</button>
-                </div>
-
-                </div>
-                
-                
-                </div>
-             
+              <div class="col-lg-1"> </div>
             </div>
           </div>
-          <!--CALENDAR COL END-->
-<script>
-$(document).ready(function(){
-  $(".btn-hide").click(function(){
-    $(".left-content-row").hide();
-  });
-
-$(".menu-icon").click(function(){
-    $(".left-content-row").show(); 
-  });
-
-$(document).ready(function(){
-   $('[data-toggle="tooltip"]').tooltip();   
- });
-
-
-$('.btn-hide').on('click', function(){
-    $('.main-content-col').removeClass('col-lg-9');
-    $('.main-content-col').addClass('col-lg-12');
-});
-
-$('.menu-icon').on('click', function(){
-    $('.main-content-col').removeClass('col-lg-12');
-    $('.main-content-col').addClass('col-lg-9');
-});
-
-$('.btn-hide').on('click', function(){
-    $('.main-content-col').removeClass('col-md-9');
-    $('.main-content-col').addClass('col-md-12');
-});
-
-$('.menu-icon').on('click', function(){
-    $('.main-content-col').removeClass('col-md-12');
-    $('.main-content-col').addClass('col-md-9');
-});
-
-});
-</script>
-
-
-          <!--BOX SEC START-->
-          <div class="col-12 col-md-9 col-lg-9 main-content-col">
-            <!--four BOX SEC START-->
-            <div class="row boxes-row">
-              <div class="col-12 col-md-6 col-lg-3 boxes-col">
-                <div class="row boxes">
-                  <div class="col-4 col-md-3 boxes-img-col">
-                    <img class="boxes-img" src="img/Layer 1351.png">
+        </div>
+        <!--ORANGE TABS SECTION END-->
+      </div>
+      <div class="tab-pane fade" id="profile-tab2" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="orange-tabs-sec">
+          <div class="container">
+            <div class="row accordion-row">
+              <div class="col-lg-1"> </div>
+              <div class="col-lg-5 col-md-5"> <img class="card-circle" src="assets/img/cards-circle-image.png" alt="Cards with circle"> </div>
+              <div class="col-lg-5 col-md-7 accordion-col">
+                <h3 class="accordian-h">We create the best</br>environment to learn</h3>
+                <!--Accordion wrapper-->
+                <div class="accordion md-accordion mt-3" id="accordionEx" role="tablist" aria-multiselectable="true">
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne1">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                        <h5 class="mb-0">
+                           01. Great Online Instructors <i class="fa fa-plus rotate-icon"></i>
+                           </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
-                  <div class="col-8 col-md-9 boxes-content-col">
-                    <span class="box-heading">38</span>
-                    <span class="box-heading2">TOTAL VISITORS</span>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo2">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                        <h5 class="mb-0">
+          02. Get Learny Certified Awards <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 boxes-col">
-                 <div class="row boxes">
-                  <div class="col-4 col-md-3 boxes-img-col">
-                    <img class="boxes-img" src="img/men-and-women.png">
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree3">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                        <h5 class="mb-0">
+          03. Exclusive Course Materials <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
-                  <div class="col-8 col-md-9 boxes-content-col">
-                    <span class="box-heading">59/125</span>
-                    <span class="box-heading2">M VS F</span>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingfour4">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapsefour4" aria-expanded="false" aria-controls="collapsefour4">
+                        <h5 class="mb-0">
+          04. In - depth Course Analysis <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapsefour4" class="collapse" role="tabpanel" aria-labelledby="headingfour4" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
+                  <!-- Accordion card -->
                 </div>
+                <!-- Accordion wrapper -->
               </div>
-              <div class="col-12 col-md-6 col-lg-3 boxes-col col-top">
-                 <div class="row boxes">
-                  <div class="col-4 col-md-3 boxes-img-col">
-                    <img class="boxes-img" src="img/avg-age.png">
-                  </div>
-                  <div class="col-8 col-md-9 boxes-content-col">
-                    <span class="box-heading">87</span>
-                    <span class="box-heading2">AVG AGE</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 boxes-col col-top">
-                 <div class="row boxes">
-                  <div class="col-4 col-md-3 boxes-img-col">
-                    <img class="boxes-img" src="img/avg-time.png">
-                  </div>
-                  <div class="col-8 col-md-9 boxes-content-col">
-                    <span class="box-heading">43</span>
-                    <span class="box-heading2">AVG TIME</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--four BOX SEC END-->
-             <!--EMOJI SEC START-->
-          <div class="row emoji-sec">
-            <div class="col-12 col-md-12 col-lg-5">
-              <div class="row analysis-row">
-                <div class="col-6 col-md-8">
-                  <span class="analysis-title">ANALYSIS</span>
-                  <span class="dot dot-4">3</span>
-                </div>
-                <div class="col-6 col-md-4">
-                 <div class="dropdown btn1 btn-right">
-                                 <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
-                                 Last Week
-                                 <i class="fa fa-ellipsis-v smallicon"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last year</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                </div>
-              </div>
-              <div class="row emoji-row">
-                <div class="col-md-1 col-hide">
-                </div>
-                <div class="col-12 col-md-3 emoji-col">
-                  <img class="emoi-img emo-2" src="img/Ellipse 1083 copie 2.png">
-                  <span class="emoji-txt">45 %</span>
-                </div>
-                <div class="col-12 col-md-3 emoji-col">
-                  <img class="emoi-img" src="img/Ellipse 1083 copie.png">
-                  <span class="emoji-txt">35 %</span>
-                </div>
-                <div class="col-12 col-md-3 emoji-col">
-                  <img class="emoi-img" src="img/Ellipse 1083.png">
-                  <span class="emoji-txt">20 %</span>
-                </div>
-                <div class="col-md-1 border-col">
-
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-7">
-               <div class="row analysis-row">
-                <div class="col-6 col-md-6">
-                  <span class="analysis-title stat">STATISTICS</span>
-                 
-                </div>
-                <div class="col-6 col-md-6">
-                  <div class="dropdown lyear">
-                                 <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
-                                 Last year
-                                 <i class="fa fa-ellipsis-v smallicon"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item s5" id="4" href="#">Last week</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item s6" id="5" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item s7" id="6" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-md-9">
-                 <!--  <img class="graph-img" src="img/VALUE.png"> -->
-                 <canvas id="line-stacked-area" height="300px"></canvas>
-                </div>
-                <div class="col-12 col-md-3 graph-right-btn-col">
-                  <button class="graph-right-btn s1" id="0">amount of visitors</button>
-                  <button class="graph-right-btn graph-right-btn2 s2" id="1">male vs. female</button>
-                  <button class="graph-right-btn graph-right-btn2 s3" id="2">avg. age</button>
-                  <button class="graph-right-btn graph-right-btn2 s4" id="3">avg. time</button>
-                
-                </div>
-              </div>
+              <div class="col-lg-1"> </div>
             </div>
           </div>
-          <!--EMOJI SEC END-->
-          <!--start of block2-->
-                  <div class="row block2 bg-white mt-2">
-                     <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                        <div class="row">
-                           <div class="col-9 col-sm-9 col-md-9 col-lg-9 colomf">
-                             <span class="analysis-title"> MALE VS FEMALE</span>
-                           </div>
-                           <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                              <div class="dropdown btn-right">
-                                 <button type="button" class="btn bg-white btn4" data-toggle="dropdown">
-                                 
-                                 <i class="fa fa-ellipsis-v smallicon2"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last week</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-12 hello-div" style="color:white">Hello</div>
-                        </div>
-                        <div class="row sm">
-                           <div class="col-12 col-sm-4 col-md-6 col-lg-6 pt-4 pl-5 text-center wo-col">
-                              <img src="img/women.png" alt="image" class="wo">
-                              <h5 class="mwfont">40%</h5>
-                           </div>
-                           <div class="col-12 col-sm-8 col-md-6 col-lg-5 pt-4 text-center men-col">
-                              <img src="img/man.png" alt="image" class="man">
-                              <h5 class="mwfont1">55%</h5>
-                           </div>
-                           <div class="col-lg-1">
-                              <div class="line1"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-12 col-lg-3">
-                        <div class="row">
-                           <div class="col-9 col-sm-9 col-md-9  pl-3 colomf"><span class="analysis-title">AVG DWELL TIME</span></div>
-                           <div class="col-3 col-sm-3 col-md-3 ">
-                              <div class="dropdown btn-right">
-                                 <button type="button" class="btn bg-white btn4" data-toggle="dropdown">
-                                 
-                                 <i class="fa fa-ellipsis-v smallicon2"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last week</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-12" style="color:white">Hello</div>
-                        </div>
-                        <div class="row stoper-row">
-                           <div class="col-12 col-sm-10 col-md-12 col-lg-10  text-center img-stoper">
-                            <img src="img/time.png" alt="image" class="nummob1">
-                           </div>
-                           <div class="col-2 col-sm-2 col-md-2">
-                              <div class="line2"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-12 col-lg-5">
-                        <div class="row">
-                           <div class="col-7 col-sm-8 col-md-4 col-lg-4  pl-3  colomf2"><span class="analysis-title">AGE GROUPS</span></div>
-                           <div class="col-5 col-sm-4 col-md-4 col-lg-4  colomf2 see-col">
-                           
-                           <div class="dropdown ">
-                                 <button type="button" class="btn dropdown-toggle bg-white btn3" data-toggle="dropdown">
-                                 <span class="dot dot-5">3</span>See more
-                                
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Actions</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Somewhere</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">On Day</a>
-                                 </div>
-                              </div>
-                           
-                           
-                           
-                           </div>
-                           <div class="col-md-4 col-lg-4 ">
-                              <div class="dropdown agedrop dc">
-                                 <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
-                                 Last week
-                                 <i class="fa fa-ellipsis-v smallicon"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last year</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-12 col-sm-12 col-md-12 pt-4">
-                              <table class="table table-hover table-responsive">
-                                 <thead>
-                                    <tr class="fonttable">
-                                       <th>Crowd</th>
-                                       <th>Video1</th>
-                                       <th>Video2</th>
-                                       <th>TTotal</th>
-                                       <th>Total</th>
-                                       <th>TTotal</th>
-                                       <!-- <th>Total</th> -->
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                    <tr class="fonttable1">
-                                       <td>0:00-14.59</td>
-                                       <td>12</td>
-                                       <td>20</td>
-                                       <td>32</td>
-                                       <td>33</td>
-                                       <td>32</td>
-                                <!--        <td>33</td> -->
-                                    </tr>
-                                    <tr class="fonttable1">
-                                       <td>15:00-29:59</td>
-                                       <td>20</td>
-                                       <td>13</td>
-                                       <td>33</td>
-                                       <td>34</td>
-                                       <td>33</td>
-                                       <!-- <td>34</td> -->
-                                    </tr>
-                                    <tr class="fonttable1">
-                                       <td>30:00-44:59</td>
-                                       <td>14</td>
-                                       <td>16</td>
-                                       <td>30</td>
-                                       <td>31</td>
-                                       <td>33</td>
-                                      <!--  <td>34</td> -->
-                                    </tr>
-                                     <tr class="fonttable1">
-                                       <td>30:00-44:59</td>
-                                       <td>14</td>
-                                       <td>16</td>
-                                       <td>30</td>
-                                       <td>31</td>
-                                       <td>33</td>
-                                   <!--     <td>34</td> -->
-                                    </tr>
-                                     <tr class="fonttable1">
-                                       <td>30:00-44:59</td>
-                                       <td>14</td>
-                                       <td>16</td>
-                                       <td>30</td>
-                                       <td>31</td>
-                                       <td>33</td>
-                                       <!-- <td>34</td> -->
-                                    </tr>
-                                 </tbody>
-                              </table>
-                           </div>
-                        </div>
-                     </div>
+        </div>
+        <!--ORANGE TABS SECTION END-->
+      </div>
+      <div class="tab-pane fade" id="contact-tab2" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="orange-tabs-sec">
+          <div class="container">
+            <div class="row accordion-row">
+              <div class="col-lg-1"> </div>
+              <div class="col-lg-5 col-md-5"> <img class="card-circle" src="assets/img/cards-circle-image.png" alt="Cards with circle"> </div>
+              <div class="col-lg-5 col-md-7 accordion-col">
+                <h3 class="accordian-h">We create the best</br>environment to learn</h3>
+                <!--Accordion wrapper-->
+                <div class="accordion md-accordion mt-3" id="accordionEx" role="tablist" aria-multiselectable="true">
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne1">
+                      <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                        <h5 class="mb-0">
+                           01. Great Online Instructors <i class="fa fa-plus rotate-icon"></i>
+                           </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
-                  <!--end of block2-->  
-                  <div class="row mt-2 block3 bg-white">
-                     <div class="col-sm-12 col-md-12 col-lg-7">
-                        <div class="row">
-                           <div class="col-6 col-sm-6 col-md-6 col-lg-8 block31"><span class="analysis-title">NATIONALITY</span>
-                             <span class="dot dot-4">8</span>
-                           </div>
-                           <div class="col-6 col-sm-4 col-md-6 col-lg-4">
-                              <div class="dropdown nation btn-right">
-                                 <button type="button" class="btn bg-white btn2 toggle-11" data-toggle="dropdown">
-                                 Last year
-                                 <i class="fa fa-ellipsis-v smallicon"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last week</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-11 table-last">
-                              <table class="table table-hover table-responsive">
-                                 <thead>
-                                    <tr class="fonttable">
-                                       <th>Video1</th>
-                                       <th>0:00-14.59</th>
-                                       <th>15:00-29:59</th>
-                                       <th>30:00-44:59</th>
-                                       <th>45:00-59:59</th>
-                                       <th>60:00-74:59</th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                    <tr class="fonttable1">
-                                       <td class="font-weight-bold fontsize">Caucasian%</td>
-                                       <td>48.38%</td>
-                                       <td>0</td>
-                                       <td>0</td>
-                                       <td>48.38%</td>
-                                       <td>48.38%</td>
-                                    </tr>
-                                    <tr class="fonttable1">
-                                       <td class="font-weight-bold fontsize">Black%</td>
-                                       <td>0.00%</td>
-                                       <td>2824</td>
-                                       <td>2824</td>
-                                       <td>0.00%</td>
-                                       <td>0.00%</td>
-                                    </tr>
-                                    <tr class="fonttable1">
-                                       <td class="font-weight-bold fontsize">Hispanic%</td>
-                                       <td>28.29%</td>
-                                       <td>1371</td>
-                                       <td>1371</td>
-                                       <td>28.29%</td>
-                                       <td>28.29%</td>
-                                    </tr>
-                                    <tr class="fonttable1">
-                                       <td class="font-weight-bold fontsize">Asian%</td>
-                                       <td>23.33%</td>
-                                       <td>1055</td>
-                                       <td>1055</td>
-                                      <td>23.33%</td>
-                                      <td>23.33%</td>
-                                    </tr>
-                                 </tbody>
-                              </table>
-                           </div>
-                           <div class="col-md-1">
-                              <div class="line3"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-12 col-md-12 col-lg-5">
-                        <div class="row">
-                           <div class="col-8 col-sm-9 col-md-9 col-lg-9 pl-3 block31"><span class="analysis-title">REPEATED VISITORS</span>
-                              <span class="dot dot-4">5</span>
-                           </div>
-                           <div class="col-4 col-sm-3 col-md-3 col-lg-3 pl-5">
-                             <div class="dropdown">
-                                 <button type="button" class="btn bg-white btn4" data-toggle="dropdown">
-                                 
-                                 <i class="fa fa-ellipsis-v smallicon2"></i>
-                                 </button>
-                                 <div class="dropdown-menu borr">
-                                    <a class="dropdown-item" href="#">Last week</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Month</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Last Day</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-sm-1"></div>
-                           <div class="col-12 col-sm-11 col-md-12">
-                           <!--  <img src="img/graph.png" alt="image" class="graph1"> -->
-                           <div id="chartContainer" class="chart12" style="height: 300px; width: 100%;"></div>
-                          </div>
-                        </div>
-                     </div>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo2">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                        <h5 class="mb-0">
+          02. Get Learny Certified Awards <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
-                  <!--end of block3-->
-                   <!--start of aqomi-->
-                  <div class="row">
-                     <div class="col-2 col-sm-4 col-md-4"></div>
-                     <div class="col-12 col-sm-8 col-md-4 p-4 logo-col-footer"><img src="img/aqomi.png" alt="image" class="img-fluid"></div>
-                     <div class="col-md-4"></div>
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree3">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                        <h5 class="mb-0">
+          03. Exclusive Course Materials <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
                   </div>
-                  <!--end of aqomi-->
+                  <!-- Accordion card -->
+                  <!-- Accordion card -->
+                  <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingfour4">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapsefour4" aria-expanded="false" aria-controls="collapsefour4">
+                        <h5 class="mb-0">
+          04. In - depth Course Analysis <i class="fa fa-plus rotate-icon"></i>
+        </h5> </a>
+                    </div>
+                    <!-- Card body -->
+                    <div id="collapsefour4" class="collapse" role="tabpanel" aria-labelledby="headingfour4" data-parent="#accordionEx">
+                      <div class="card-body"> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Ut enim ad minim veniam </div>
+                    </div>
+                  </div>
+                  <!-- Accordion card -->
+                </div>
+                <!-- Accordion wrapper -->
+              </div>
+              <div class="col-lg-1"> </div>
+            </div>
           </div>
+        </div>
+        <!--ORANGE TABS SECTION END-->
+      </div>
+    </div>
+  </div>
+  <!--ORANGE TAB FULL SECTION END-->
+  <!--START JOURNEY SECTION START-->
+  <div class="journey-sec">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <h3 class="easy-h text-center">Start a Journey. Enroll Now</h3>
+          <h4 class="easy-sub-h text-center">LEARN SOMETHING WHEREVER YOU ARE</h4>
+          <a class="" href="">
+            <button class="join-course mt-5">Join a Course Now</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--START JOURNEY SECTION START-->
+  <!--CTO SECTION START-->
+  <div class="cto-sec">
+    <div class="container">
+      <div class="row cto-row">
+        <div class="col-lg-7 col-md-6 col-12">
+          <h3 class="cto-h">Get hands on the <span class="great-course">Great Courses</span> you like</h3> </div>
+        <div class="col-lg-5 col-md-6 col-12">
+          <div class="social-div"> <span class="follow-p">Follow us on</span> <span class="socail-icon-f"><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></span> <span class="socail-icon-t"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span> <span class="socail-icon-g"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></span> <span class="socail-icon-v"><a href=""><i class="fa fa-vimeo" aria-hidden="true"></i></a></span> <span class="socail-icon-i"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CTO SECTION END-->
+  <!--FOOTER SECTION START-->
+  <div class="footer-sec">
+    <div class="container">
+      <div class="row footer-top">
+        <div class="col-lg-4 col-md-3">
+          <h3 class="footer-h">Links</h3>
+          <ul class="footer-list mt-4">
+            <li><a href="">Courses</a></li>
+            <li><a href="">Tutors</a></li>
+            <li><a href="">Quiz & Tests</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-3">
+          <h3 class="footer-h">Company</h3>
+          <ul class="footer-list mt-4">
+            <li><a href="">About us</a></li>
+            <li><a href="">Talk To Us</a></li>
+            <li><a href="">Help</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h3 class="footer-h">Contact us</h3>
+          <div class="contact-detail map-detail mt-4"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Address:</span> 77 Indian St. Baltimore, MD 21206</div>
+          <div class="contact-detail mt-1"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone:</span><a href="tel:+3233-332-334"> +3233-332-334</a></div>
+          <div class="contact-detail mt-1"><i class="fa fa-envelope" aria-hidden="true"></i><span>Email:</span><a href="mailto:elearny@gmail.com"> elearny@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+        <div class="col-lg-6 col-md-4 col-12">
+          <h3 class="copy-text">Copyright 2018 DesignThemes. All Rights Reserved</h3> </div>
+        <div class="col-lg-6 col-md-8 col-12 text-right footer-bottom-right"> <span class="footer-bottom-link"><a href="">Privacy Policy</a></span> | <span class="footer-bottom-link"><a href="">Terms and Conditions</a></span> | <span class="footer-bottom-link"><a href="">Refund Policy</a></span> </div>
+      </div>
+    </div>
+  </div>
+  <!--FOOTER SECTION END-->
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  </footer>
+</body>
 
-          <!--BOX SEC END-->
-
-         
-
-
-
-       </div>
-       <!-- CONTENT SECTION END-->
-
-
-
-      
-      
-      <footer>
-        <script>
-window.onload = function () {
-
-var chart = new CanvasJS.Chart("chartContainer", {
-  animationEnabled: true,
-  exportEnabled: true,
-  title:{
-    text: ""             
-  }, 
-  axisY:{
-    title: ""
-  },
-  toolTip: {
-    shared: true
-  },
-  legend:{
-    cursor:"pointer",
-    itemclick: toggleDataSeries
-  },
-  data: [
-  {        
-    type: "spline",  
-    name: "US",        
-    showInLegend: true,
-    dataPoints: [
-      // { label: "Atlanta 1996" , y: 44 },     
-      // { label:"Sydney 2000", y: 37 },     
-      // { label: "Athens 2004", y: 36 },     
-      // { label: "Beijing 2008", y: 36 },     
-      // { label: "London 2012", y: 46 },
-      // { label: "Rio 2016", y: 46 }
-    ]
-  }, 
-  // {        
-  //   type: "spline",
-  //   name: "China",        
-  //   showInLegend: true,
-  //   dataPoints: [
-  //     { label: "Atlanta 1996" , y: 16 },     
-  //     { label:"Sydney 2000", y: 28 },     
-  //     { label: "Athens 2004", y: 32 },     
-  //     { label: "Beijing 2008", y: 48 },     
-  //     { label: "London 2012", y: 38 },
-  //     { label: "Rio 2016", y: 26 }
-  //   ]
-  // },
-  // {        
-  //   type: "spline",  
-  //   name: "Britain",        
-  //   showInLegend: true,
-  //   dataPoints: [
-  //     { label: "Atlanta 1996" , y: 1 },     
-  //     { label:"Sydney 2000", y: 11 },     
-  //     { label: "Athens 2004", y: 9 },     
-  //     { label: "Beijing 2008", y: 19 },     
-  //     { label: "London 2012", y: 29 },
-  //     { label: "Rio 2016", y: 27 }
-  //   ]
-  // },
-  {   
-       
-    type: "spline",  
-    name: "Russia",        
-    showInLegend: true,
-    dataPoints: [
-      // { label: "Atlanta 1996" , y: 26 },     
-      // { label:"Sydney 2000", y: 32 },     
-      // { label: "Athens 2004", y: 28 },     
-      // { label: "Beijing 2008", y: 22 },     
-      // { label: "London 2012", y: 20 },
-      // { label: "Rio 2016", y: 19 }
-    ]
-  },
-  {  
-    markerType: "none",     
-    type: "spline",  
-    lineThickness: 2,
-    name: "Video-1",        
-    showInLegend: true,
-    lineColor: "#529bd4",
-    dataPoints: [
-      { label: "Sun" , y: 10 },     
-      { label:"Mon", y: 20 },     
-      { label: "Tue", y: 30 },     
-      { label: "Wed", y: 10 },     
-      { label: "Thu", y: 20},
-      { label: "Fri", y: 40 }
-    ]
-  },  
-  { 
-  markerType: "none",         
-    type: "spline", 
-    lineThickness: 2, 
-    name: "Video-2",        
-    showInLegend: true,
-    lineColor: "#ff00b7",
-    dataPoints: [
-      { label: "Sun" , y: 20 },     
-      { label:"Mon", y: 10 },     
-      { label: "Tue", y: 10 },     
-      { label: "Wed", y: 20 },     
-      { label: "Thu", y: 10 },
-      { label: "Fri", y: 20 },
-      { label: "Sat", y: 20 }
-    ]
-  }]
-});
-
-chart.render();
-
-function toggleDataSeries(e) {
-  if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-    e.dataSeries.visible = false;
-  }
-  else {
-    e.dataSeries.visible = true;            
-  }
-  chart.render();
-}
-
-}
-</script>
-      <script src="app-assets/vendors/js/charts/chart.min.js"></script>
-    <script src="app-assets/vendors/js/charts/echarts/echarts.js"></script>
-    <script src="app-assets/js/scripts/charts/chartjs/line/line.min.js"></script>
-    <script src="app-assets/js/scripts/charts/chartjs/line/line-stacked-area.min.js"></script>
-      
-      </footer>
-      
-      
-      
-      
-   </body>
 </html>
-
